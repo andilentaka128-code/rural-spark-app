@@ -1,0 +1,42 @@
+﻿{
+    "flutter":  {
+                    "platforms":  {
+                                      "android":  {
+                                                      "default":  {
+                                                                      "projectId":  "rural-spark-app",
+                                                                      "appId":  "1:718054735956:android:47897766fabf0ad9056dc1",
+                                                                      "fileOutput":  "android/app/google-services.json"
+                                                                  }
+                                                  },
+                                      "dart":  {
+                                                   "lib/firebase_options.dart":  {
+                                                                                     "projectId":  "rural-spark-app",
+                                                                                     "configurations":  {
+                                                                                                            "android":  "1:718054735956:android:47897766fabf0ad9056dc1",
+                                                                                                            "ios":  "1:718054735956:ios:97668a40bf0789b3056dc1",
+                                                                                                            "macos":  "1:718054735956:ios:97668a40bf0789b3056dc1",
+                                                                                                            "web":  "1:718054735956:web:0972a8b37b11a446056dc1",
+                                                                                                            "windows":  "1:718054735956:web:ff550c70ce96fae6056dc1"
+                                                                                                        }
+                                                                                 }
+                                               }
+                                  }
+                },
+    "firestore":  {
+                      "rules":  "firestore.rules"
+                  },
+    "hosting":  {
+                    "public":  "build/web",
+                    "ignore":  [
+                                   "firebase.json",
+                                   "**/.*",
+                                   "**/node_modules/**"
+                               ],
+                    "rewrites":  [
+                                     {
+                                         "destination":  "/index.html",
+                                         "source":  "**"
+                                     }
+                                 ]
+                }
+}

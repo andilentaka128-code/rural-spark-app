@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718054735956",
+    "project_id": "rural-spark-app",
+    "storage_bucket": "rural-spark-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718054735956:android:47897766fabf0ad9056dc1",
+        "android_client_info": {
+          "package_name": "com.example.my_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB5CV-tBtTSmkz3RC-7mPVVWIit9I_g6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
